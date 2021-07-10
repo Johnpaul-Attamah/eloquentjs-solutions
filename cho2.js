@@ -111,7 +111,7 @@ function chessboard(size=8) {
                 markings += '#';
             }
         }
-        //remember to clear the row to generate for next iteration of i
+        // we need to print a newline character after each complete set here
         markings+='\n';
     }
     return markings;
