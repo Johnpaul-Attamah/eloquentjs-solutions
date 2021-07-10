@@ -86,7 +86,6 @@ for(let number = 1; number <= 100; number++) {
  * 3. when either of above print "#" or vice versa
  */
 //we will need a string to print row by row
-//use bitwise AND '&' to check for even or odd, using "%" will take too much space
 let markings = '';
 for(let i = 0; i < 8; i ++) {
     for(let j = 0; j < 8; j++){
